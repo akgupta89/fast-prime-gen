@@ -1,0 +1,27 @@
+{
+  "name": "fast-prime-gen",
+  "author": "akgupta89",
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "./src/PostponedSieve.js",
+  "homepage": "https://github.com/akgupta89/fast-prime-gen",
+  "description": "Generate sequential primes through a generator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akgupta89/fast-prime-gen.git"
+  },
+  "keywords": [
+    "Postponed Sieve",
+    "Sieve of Eratosthenes",
+    "Prime",
+    "Prime Generator",
+    "Prime Number"
+  ],
+  "scripts": {
+    "test": "npx jasmine src/**/*.test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  }
+}
