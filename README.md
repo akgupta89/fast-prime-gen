@@ -15,12 +15,12 @@
 A tiny, dependency-free package that streams prime numbers on demand. Instead of
 precomputing a list, it yields the next prime using a **postponed Sieve of
 Eratosthenes** (based on [Vladimir Agafonkin](https://observablehq.com/@mourner/fast-prime-generator)'s
-work) — so memory grows with the primes you've actually seen, not a fixed upper bound.
+work) - so memory grows with the primes you've actually seen, not a fixed upper bound.
 
 - 🪶 **Zero dependencies**
-- ♾️ **Lazy & infinite** — pull one prime or a million
-- 🧩 **Standard generator** — works with `for…of`, spread, destructuring
-- 🔒 **Typed** — ships `.d.ts`, with ESM **and** CommonJS builds
+- ♾️ **Lazy & infinite** - pull one prime or a million
+- 🧩 **Standard generator** - works with `for…of`, spread, destructuring
+- 🔒 **Typed** - ships `.d.ts`, with ESM **and** CommonJS builds
 
 ## Install
 
